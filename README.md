@@ -1,13 +1,7 @@
-# WireGuard Easy
+# Edge Tunnel
 
-[![Build & Publish latest Image](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml/badge.svg?branch=production)](https://github.com/wg-easy/wg-easy/actions/workflows/deploy.yml)
-[![Lint](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml/badge.svg?branch=master)](https://github.com/wg-easy/wg-easy/actions/workflows/lint.yml)
-[![GitHub Stars](https://img.shields.io/github/stars/wg-easy/wg-easy)](https://github.com/wg-easy/wg-easy/stargazers)
-[![License](https://img.shields.io/github/license/wg-easy/wg-easy)](LICENSE)
-[![GitHub Release](https://img.shields.io/github/v/release/wg-easy/wg-easy)](https://github.com/wg-easy/wg-easy/releases/latest)
-[![Image Pulls](https://img.shields.io/badge/image_pulls-12M+-blue)](https://github.com/wg-easy/wg-easy/pkgs/container/wg-easy)
+Private Access Gateway
 
-You have found the easiest way to install & manage WireGuard on any Linux host!
 
 <!-- TOOD: update screenshot -->
 

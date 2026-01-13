@@ -20,7 +20,7 @@
       />
       <div
         v-if="clientsStore.clients === null"
-        class="p-5 text-gray-200 dark:text-red-300"
+        class="p-5 text-gray-200 dark:text-slate-400"
       >
         <IconsLoading class="mx-auto w-5 animate-spin" />
       </div>

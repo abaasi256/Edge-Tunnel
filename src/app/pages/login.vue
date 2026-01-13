@@ -8,7 +8,7 @@
     >
       <!-- Avatar -->
       <div
-        class="mx-auto mb-5 mt-5 h-20 w-20 overflow-hidden rounded-full bg-red-800 dark:bg-red-800"
+        class="mx-auto mb-5 mt-5 h-20 w-20 overflow-hidden rounded-full bg-slate-700 dark:bg-slate-700"
       >
         <IconsAvatar class="m-5 h-10 w-10 text-white dark:text-white" />
       </div>
@@ -53,7 +53,7 @@
       <button
         class="rounded py-2 text-sm text-white shadow transition dark:text-white"
         :class="{
-          'cursor-pointer bg-red-800 hover:bg-red-700 dark:bg-red-800 dark:hover:bg-red-700':
+          'cursor-pointer bg-slate-700 hover:bg-slate-600 dark:bg-slate-700 dark:hover:bg-slate-600':
             password && username,
           'cursor-not-allowed bg-gray-200 dark:bg-neutral-800':
             !password || !username,

@@ -1,10 +1,6 @@
 <template>
   <div
-    v-if="
-      globalStore.information?.updateAvailable &&
-      authStore.userData &&
-      hasPermissions(authStore.userData, 'admin', 'any')
-    "
+    v-if="false"
     class="font-small mb-10 rounded-md bg-red-800 p-4 text-sm text-white shadow-lg dark:bg-red-100 dark:text-red-600"
     :title="`v${globalStore.information.currentRelease} → v${globalStore.information.latestRelease.version}`"
   >
