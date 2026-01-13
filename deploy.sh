@@ -17,8 +17,8 @@ echo "🚀 Deploying Edge Tunnel..."
 git pull origin main
 
 # Cleanup potential conflicts
-docker stop wg-easy edge-tunnel 2>/dev/null || true
-docker rm wg-easy edge-tunnel 2>/dev/null || true
+docker stop wg-easy edge-tunnel wireguard 2>/dev/null || true
+docker rm wg-easy edge-tunnel wireguard 2>/dev/null || true
 
 # Build and start
 docker compose -f compose.prod.yaml up -d --build
